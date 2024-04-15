@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap-customize-ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss/ -o css/ --output-style"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "fslightbox": "^3.4.1",
+    "node-sass": "^9.0.0"
+  }
+}

@@ -1,0 +1,212 @@
+.top-bar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+}
+
+  
+
+.btn-light {
+    background-color: #fff;
+    color: #212529;
+
+    &:hover {
+
+        color: $primary
+    }
+
+    &:hover i {
+        color: $primary;
+    }
+
+    i {
+        color: rgb(157, 161, 167);
+    }
+
+}
+
+
+.img-wrap {
+    display: block;
+    height: 240px;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+
+
+    img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .badge {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+
+}
+
+//product detail
+.breadcrumb a {
+    color: #fff;
+    opacity: .75;
+}
+
+
+
+.title {
+    color: #51585e;
+}
+
+.info-wrap {
+    padding: 1rem 1.2rem;
+}
+
+.btn-icon {
+    width: 2.5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+//image gallery 
+.img-gallery-wrap {
+
+    .img-big-wrap {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 1rem;
+        text-align: center;
+
+
+        a {
+            display: block;
+            height: 100%;
+            text-align: center;
+        }
+    }
+
+    .thumbs-wrap {
+        text-align: center;
+
+        img {
+            width: 60px;
+            height: 60px;
+            border: 1px solid #dde2e6;
+            border-radius: .4rem;
+            margin: 3px;
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+
+        a {
+            text-decoration: none;
+            overflow: hidden;
+        }
+    }
+
+
+}
+
+.checked {
+    color: orange;
+}
+
+.filter-box .card-header {
+    border-bottom:0;
+}
+
+.brand-menu li{
+    margin-bottom:3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.brand-menu li>a{
+    color: #51585e;
+}
+
+.scroll{
+    //Çok fazla marka ya da başka bir şey olduğunda scroll çubuğu çıkarır ve değerler taştığında çubuğu aşağı kaydırarak diğer değerleri görmemizi sağlar.
+    
+    max-height: 200px;
+    overflow:auto;
+}
+
+.card-header a{
+    color: #000;
+}
+
+.fa-chevron-down{
+    float:right;
+    font-size:14px;
+    margin-top:5px;
+}
+
+.btn-checkbox{
+    position:relative;
+}
+
+.btn-checkbox input{
+    opacity: 0;
+    position:absolute;
+    display: inline-block;
+    width:100%;
+    height:100%;
+}
+.btn-checkbox input:checked~.btn{
+   background-color: #0d6efd;
+   color: #fff;
+}
+
+
+.brand-menu .brand,.category-menu .category{
+    color: #000;
+}
+
+.card-header .card-title{
+    font-weight:bold;
+}
+
+
+
+.card-img-top {
+   
+    
+    width:100%;
+    height: 100%;
+    max-width:100%;
+    max-height:100%;
+    object-fit:cover;
+}
+
+#computer-tablet,#mobile_phone .card{
+    height:100%;
+}
+
+
+.card-body .price-wrapper{
+   margin-top:8px;
+}
+
+.card-body .btn-primary{
+    margin:10px 0;
+}
+
+.price-wrapper .price-first{
+    margin-left:2px;
+    margin-right:5px;
+   
+}
+ .card-body .card-title{
+    font-size:1rem;
+}
+
+
